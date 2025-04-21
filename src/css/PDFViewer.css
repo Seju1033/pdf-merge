@@ -1,4 +1,4 @@
-/* Container for the entire PDF viewer component */
+
 .viewer-container {
   display: flex;
   flex-direction: column;
