@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import MergePDF from './pages/MergePDF';
 import CompressPDF from './pages/CompressPDF';
 import Footer from './components/Footer';
+import PDFViewer from './pages/PDFViewer';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/merge-pdf" element={<MergePDF />} />
         <Route path="/compress-pdf" element={<CompressPDF />} />
+        <Route path="/edit-pdf" element={<PDFViewer />} />
       </Routes>
       <Footer/>
     </Router>
